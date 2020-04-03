@@ -11,7 +11,7 @@ _logger = logging.getLogger(__name__)
 
 def etl():
     """ETL."""
-    file_date = date(2020, 2, 25)
+    file_date = date(2020, 4, 2)
     dates = []
 
     while file_date <= date.today():
